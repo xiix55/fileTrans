@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<?import org.controlsfx.control.HiddenSidesPane?>
+
+<?import javafx.scene.layout.HBox?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:id="mainBorderPane" stylesheets="/css/main-stage.css" xmlns="http://javafx.com/javafx/8.0.112"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <BorderPane fx:id="headPane" prefHeight="68.0">
+        </BorderPane>
+
+    </top>
+
+    <center>
+        <HiddenSidesPane fx:id="centerPane">
+
+        </HiddenSidesPane>
+        <VBox>
+            <HBox>
+                <JFXButton>
+
+                </JFXButton>
+            </HBox>
+            <HBox>
+                <JFXButton>
+
+                </JFXButton>
+            </HBox>
+            <HBox>
+                <JFXButton>
+
+                </JFXButton>
+            </HBox>
+        </VBox>
+    </center>
+
+    <bottom>
+    </bottom>
+</BorderPane>

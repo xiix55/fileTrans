@@ -1,0 +1,80 @@
+#mainBorderPane {
+    -fx-pref-height: 768.0;
+    -fx-pref-width: 1024.0;
+}
+
+.header_title{
+    -fx-background-color: whitesmoke;
+    /*linear-gradient(#38ae5a,lawngreen,#38ae5a);*/
+    -fx-background-radius: 0;
+}
+
+.header_headline{
+    -fx-text-fill: #0096C9;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-min-width: 250;
+    -fx-max-width: 250;
+}
+
+.header_message{
+    -fx-text-fill: #0096C9;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-min-width: 120;
+    -fx-max-width: 120;
+}
+
+.header_btn{
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 2;
+    -fx-text-fill: #0096C9;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-min-width: 68;
+    -fx-max-width: 68;
+}
+.header_btn:hover {
+    -fx-background-color: #0096C9;
+    -fx-text-fill: white;
+}
+
+.header_foot{
+    -fx-background-color: #0096C9;
+    -fx-min-height: 5;
+    -fx-max-height: 5;
+    -fx-max-width: Infinity;
+}
+
+.main_foot{
+    -fx-background-color: white;
+    -fx-min-height: 1;
+    -fx-max-height: 1;
+    -fx-max-width: Infinity;
+}
+
+.main_btn_normal{
+    -fx-background-color: #0096C9;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 68;
+    -fx-min-height: 68;
+    -fx-max-width: Infinity;
+    -fx-alignment: CENTER;
+    -fx-graphic-text-gap: 2.0;
+}
+
+.main_btn_select{
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-text-fill: #0096C9;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 68;
+    -fx-min-height: 68;
+    -fx-max-width: Infinity;
+    -fx-alignment: CENTER;
+    -fx-graphic-text-gap: 2.0;
+}
